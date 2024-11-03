@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bud-get"
+version = "0.1.0"
+package-mode = false
+description = "An automated budget the way I like it."
+authors = ["gschlabitz <guido.schlabitz@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-api-python-client = "^2.151.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
