@@ -1,0 +1,29 @@
+# Configure how to transform arbitrary CSV into a normalized structure of payment transactions.
+
+log_level: DEBUG
+
+header_mappings:
+    Date:
+        - Date
+        - Transaction Date
+    
+    Type:
+        - Type
+    
+    Payee:
+        - Payee
+        - Merchant
+    
+    Description:
+        - Description
+        - Memo
+    
+    Category:
+        - Category
+
+    Amount:
+        - Amount
+        - Amount (USD)
+    
+    Balance:
+        - Balance
