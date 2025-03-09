@@ -2,22 +2,25 @@
 
 An automated budget the way I like it.
 
-## Just use a Spreadsheet!
+## Budgeting apps suck
 
 I've used many banking and budget apps over the years and they always
-disappointed. Sure, they had fancy features and graphs, but were hard to use,
-importing transactions only worked sometimes, and one or two things important to
-me were just missing. Some of them sold my data, others were just an ad vehicle
-for banks.
+disappointed in some way. They were either too simple or too complex. The common
+main issue was importing transactions only worked sometimes, requiring me to
+enter the data manually.
 
 Years later, I discovered that I don't need to rely on a banking app. The best
-way and cheapest way to do budgets is a spreadsheet. It is such a simple and
-flexible concept! You can make your budget exactly the way you like it.
+and cheapest way to do budgets is a spreadsheet. That way, you can make your
+budget exactly the way you like it.
 
-## Drawbacks of Spreadsheets
+## Just use a Spreadsheet!
 
-The only drawback is the data entry aspect. I'm lazy and wanted to find a way to
-automate this and here is were Bud-Get comes in!
+Well, almost. The only drawback is the data entry aspect. Even if a bank lets
+you download transactions as a CSV file, you still have to edit it and get it
+into the right place.
+
+This is were Bud-Get comes in! It automates creating and updating a budget
+spreadsheet from CSV transaction reports.
 
 ## Such Automation
 
@@ -30,3 +33,11 @@ exported CSV and:
 - generate a year-to-date overview
 - add a pre-filled budget template based on your categories and downloaded data
 - NOT send data anywhere for monetization, woohoo!
+
+For now, Bud-Get only handles Numbers spreadsheets. While I like Excel, I don't
+want to pay a subscription for it.
+
+Dev notes:
+
+- use [numbers-parser](https://github.com/masaccio/numbers-parser) to write to
+  Numbers
